@@ -5,13 +5,30 @@
     text-align: center;
   }
   
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner nav {
+    margin-top: 20px;
+  }
+  
   .banner nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+    font-size: 1.5rem;
   }
   
   .banner nav a:hover {
     text-decoration: underline;
+  }
+  
+  .banner-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%; /* Reduced size */
+    height: auto;
   }
   

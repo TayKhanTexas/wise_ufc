@@ -1,24 +1,19 @@
-.sponsors {
+.sponsors-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px 0;
+    justify-content: space-between;
+    margin-top: -150px; /* Adjust this value based on the image height */
   }
   
-  .sponsors a {
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .sponsors img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
-  .sponsors p {
-    margin-top: 10px;
+    width: 50px; /* Reduce the size by 50% */
+    height: 50px;
+    margin: 10px 0;
   }
   

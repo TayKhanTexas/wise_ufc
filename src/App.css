@@ -14,23 +14,44 @@ body {
   background-color: #333;
   color: white;
   padding: 20px;
+  position: relative;
+}
+
+.banner h1 {
+  margin-bottom: 20px;
 }
 
 .banner nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
-.sponsors, .items-for-sale, .dream-buy-list, .special-offers, .social-media-feed, .posts {
-  margin: 20px 0;
-}
-
-.sponsors a, .dream-buy-list a {
+.banner-image {
   display: block;
-  margin: 10px;
-  text-decoration: none;
-  color: black;
+  margin: 20px auto;
+  max-width: 50%;
+  height: auto;
+}
+
+.sponsors-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -150px; /* Adjust this value based on the image height */
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors img {
+  width: 50px; /* Reduce the size by 50% */
+  height: 50px;
+  margin: 10px 0;
 }
 
 .main-content {
