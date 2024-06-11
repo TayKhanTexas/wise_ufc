@@ -1,0 +1,33 @@
+.posts {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .post button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .post button:hover {
+    background-color: #0056b3;
+  }
+  
+  .replies p {
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    border-left: 2px solid #ccc;
+  }
+  

@@ -1,0 +1,26 @@
+.dream-buy-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .dream-buy-list a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dream-buy-list img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .dream-buy-list p {
+    margin-top: 10px;
+  }
+  

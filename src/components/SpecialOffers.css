@@ -1,0 +1,19 @@
+.special-offers {
+    margin: 20px 0;
+  }
+  
+  .offer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .offer input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

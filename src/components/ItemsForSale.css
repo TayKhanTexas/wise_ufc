@@ -1,0 +1,34 @@
+.items-for-sale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quantity label {
+    margin: 5px 0;
+  }
+  
+  .quantity input[type="text"] {
+    width: 50px;
+  }
+  
