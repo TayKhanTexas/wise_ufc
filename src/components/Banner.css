@@ -1,34 +1,70 @@
 .banner {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .banner h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .banner nav {
-    margin-top: 20px;
-  }
-  
-  .banner nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
-  
-  .banner nav a:hover {
-    text-decoration: underline;
-  }
-  
-  .banner-image {
-    display: block;
-    margin: 20px auto;
-    max-width: 50%; /* Reduced size */
-    height: auto;
-  }
-  
+  background-image: url('../assets/banner_main_image.jpg'); /* Background image for the banner */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px; /* Adjusted padding to reduce height */
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 4rem; 
+  margin-bottom: 25px;
+  z-index: 1;
+  position: relative;
+}
+
+.banner nav {
+  margin-top: 10px; /* Reduced margin */
+}
+
+.banner nav a {
+  color: white;
+  margin: 0 8px; /* Adjusted margin */
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjusted size of social media icons */
+}
+
+.banner nav a:hover {
+  text-decoration: underline;
+}
+
+.banner-image {
+  max-width: 50%; /* Reduced width */
+  height: auto;
+  margin: 0 auto; /* Centered horizontally */
+  position: relative;
+  transform: translateY(-10%); /* Adjusted position to align with new size */
+}
+
+.sponsors-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  margin-top: 30px; /* Ensures it's below the banner image */
+  width: 70%; /* Reduced width by 30% */
+  margin: 0 auto; /* Centered horizontally */
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px; /* Adjusted margin */
+}
+
+.sponsors img {
+  width: 75px; /* Increased size */
+  height: 75px; /* Increased size */
+  margin: 5px 0; /* Adjusted margin for spacing */
+}
+
+.banner-left-image {
+  width: 300px; /* Adjusted width */
+  height: auto;
+  margin-right: 10px; /* Spacing between the left image and the banner */
+}
+

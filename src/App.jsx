@@ -1,6 +1,5 @@
 import React from 'react';
 import Banner from './components/Banner';
-import Sponsors from './components/Sponsors';
 import ItemsForSale from './components/ItemsForSale';
 import Cart from './components/Cart';
 import SpecialOffers from './components/SpecialOffers';
@@ -13,13 +12,12 @@ const App = () => {
   return (
     <div className="App">
       <Banner />
-      <Sponsors />
       <div className="main-content">
         <div className="items-and-cart">
           <ItemsForSale />
-          <Cart />
+          <SpecialOffers />
         </div>
-        <SpecialOffers />
+        <Cart />
       </div>
       <DreamBuyList />
       <SocialMediaFeed />

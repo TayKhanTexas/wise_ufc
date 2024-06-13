@@ -10,82 +10,9 @@ body {
   padding: 20px;
 }
 
-.banner {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  position: relative;
-}
-
-.banner h1 {
-  margin-bottom: 20px;
-}
-
-.banner nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.banner-image {
-  display: block;
-  margin: 20px auto;
-  max-width: 50%;
-  height: auto;
-}
-
-.sponsors-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: -150px; /* Adjust this value based on the image height */
-}
-
-.sponsors {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sponsors img {
-  width: 50px; /* Reduce the size by 50% */
-  height: 50px;
-  margin: 10px 0;
-}
-
 .main-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.items-for-sale {
-  flex: 3;
-}
-
-.cart {
-  flex: 1;
-  margin-left: 20px;
-}
-
-.items-for-sale .item, .posts .post {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-.items-for-sale .quantity label, .cart label {
-  margin: 0 10px;
-}
-
-.cart {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: 20px 0;
-}
-
-.replies p {
-  margin: 0;
-  padding: 0 10px;
-}
