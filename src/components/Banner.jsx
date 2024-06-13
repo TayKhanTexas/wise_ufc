@@ -1,6 +1,5 @@
 import React from 'react';
 import './Banner.css';
-import beltImage from '../assets/leon_edwards_belt.png';
 import logoRdx from '../assets/logo_rdx.png';
 import logoMontirex from '../assets/logo_montirex.png';
 import logoKngs from '../assets/logo_rdx.png'; // Adjust this if there's a different logo file for KNGS
@@ -14,7 +13,6 @@ const Banner = () => {
       <h1>Leon "Rocky" Edwards</h1>
       <div className="sponsors-container">
         <img src={bannerImageLeft} alt="Banner Left" className="banner-left-image" />
-        <img src={beltImage} alt="Leon Edwards Belt" className="banner-image" />
         <div className="sponsors">
           <a href="https://www.instagram.com/kngs_athletemanagement/?hl=en" target="_blank" rel="noopener noreferrer">
             <img src={logoKngs} alt="KNGS Athlete Management" />

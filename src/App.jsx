@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './components/Banner';
-import ItemsForSale from './components/ItemsForSale';
+import BuyItems from './components/Buyitems';
 import Cart from './components/Cart';
 import SpecialOffers from './components/SpecialOffers';
 import DreamBuyList from './components/DreamBuyList';
@@ -14,7 +14,7 @@ const App = () => {
       <Banner />
       <div className="main-content">
         <div className="items-and-cart">
-          <ItemsForSale />
+          <BuyItems />
           <SpecialOffers />
         </div>
         <Cart />

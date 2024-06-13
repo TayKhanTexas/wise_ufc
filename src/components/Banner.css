@@ -12,7 +12,7 @@
   font-size: 4rem; 
   margin-bottom: 25px;
   z-index: 1;
-  position: relative;
+  position: left;
 }
 
 .banner nav {
@@ -30,13 +30,6 @@
   text-decoration: underline;
 }
 
-.banner-image {
-  max-width: 50%; /* Reduced width */
-  height: auto;
-  margin: 0 auto; /* Centered horizontally */
-  position: relative;
-  transform: translateY(-10%); /* Adjusted position to align with new size */
-}
 
 .sponsors-container {
   display: flex;
@@ -63,8 +56,8 @@
 }
 
 .banner-left-image {
-  width: 300px; /* Adjusted width */
+  width: 200px; /* Adjusted width */
   height: auto;
-  margin-right: 10px; /* Spacing between the left image and the banner */
+  margin-right: 300px; /* Spacing between the left image and the banner */
 }
 
