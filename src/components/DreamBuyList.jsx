@@ -1,17 +1,20 @@
 import React from 'react';
 import './DreamBuyList.css';
+import dreamRolex from '../assets/dream_rolex.jpg';
+import dreamThunderbike from '../assets/dream_thunderbike.jpg';
 
 const dreamItems = [
-  { name: 'Harley Davidson Tri Glide Ultra', price: '£32999', url: 'https://www.harleyworldchesterfield.co.uk/bikes-in-stock/harley-davidson/tri-glide%C2%AE-ultra/217845.htm' },
-  { name: 'Rolex Datejust', price: '£16500', url: 'https://www.rolex.com/en-us/watches/datejust/m126284rbr-0023#/m126284rbr-0023/dial' },
+  { name: 'Harley Davidson Burning Skull', price: '£32999', imageUrl: dreamThunderbike, url: 'https://www.thunderbike.com/custombikes/burning-skull/' },
+  { name: 'Rolex Datejust', price: '£16500', imageUrl: dreamRolex, url: 'https://www.rolex.com/watches/datejust/m126284rbr-0023#/m126284rbr-0023/dial' },
 ];
 
 const DreamBuyList = () => {
   return (
     <div className="dream-buy-list">
+      <h2>Spoil Me Gifts</h2>
       {dreamItems.map((item, index) => (
-        <a key={index} href={item.url} target="_blank" rel="noopener noreferrer">
-          <img src="placeholder.jpg" alt={item.name} />
+        <a key={index} href={item.url} target="_blank" rel="noopener noreferrer" className="dream-item">
+          <img src={item.imageUrl} alt={item.name} className="dream-image" />
           <p>{item.name} - {item.price}</p>
         </a>
       ))}
@@ -20,3 +23,4 @@ const DreamBuyList = () => {
 }
 
 export default DreamBuyList;
+

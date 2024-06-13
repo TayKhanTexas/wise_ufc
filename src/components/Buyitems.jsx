@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './BuyItems.css';
 import costaLatte from '../assets/costa_latte.png';
-import triventoBottle from '../assets/trivento_bottle.jpg';
 import fishandchips from '../assets/fishandchips.jpg';
 import bigmac from '../assets/bigmac.jpg';
 import headKick from '../assets/headKick.gif';
@@ -11,14 +10,13 @@ const BuyItems = () => {
 
   const items = [
     { id: 1, name: 'Head Shot Dead!', price: '$5', imageUrl: headKick },
-    { id: 2, name: 'Bitch slap of Colby Covington', price: '$5', gifUrl: 'https://giphy.com/embed/PiiO620BR47XQAcNjM' },
-    { id: 3, name: 'Waking up Nate Diaz', price: '$5', gifUrl: 'https://giphy.com/embed/VrKy8X3SdOMgIsy5P5' },
-    { id: 4, name: 'Finishing Belal Muhammed', price: '$5', gifUrl: 'https://giphy.com/embed/lf06m6wCeIpTi7d2OX' },
+    { id: 2, name: 'Humbling of Colby Covington', price: '$5', imageUrl: headKick },
+    { id: 3, name: 'Waking up Nate Diaz', price: '$5', imageUrl: headKick },
+    { id: 4, name: 'Finishing Belal Muhammed', price: '$5', imageUrl: headKick },
     { id: 5, name: 'Costa Latte', price: '$5', imageUrl: costaLatte },
     { id: 6, name: 'Wetherspoon Glass of Trivento Red Wine', price: '$8', gifUrl: 'https://giphy.com/embed/ng6NcNAvohN6M' },
-    { id: 7, name: 'Wetherspoon Bottle of Trivento Red Wine', price: '$70', imageUrl: triventoBottle },
-    { id: 8, name: 'Bedders Fish & Chips', price: '$10', imageUrl: fishandchips },
-    { id: 9, name: 'McDonalds Big Mac and Fries', price: '$10', imageUrl: bigmac },
+    { id: 7, name: 'Bedders Fish & Chips', price: '$10', imageUrl: fishandchips },
+    { id: 8, name: 'McDonalds Big Mac and Fries', price: '$10', imageUrl: bigmac },
   ];
 
   const handleSelectQuantity = (id, quantity) => {
@@ -35,9 +33,6 @@ const BuyItems = () => {
           {item.gifUrl ? (
             <iframe
               src={item.gifUrl}
-              width="480"
-              height="266"
-              frameBorder="0"
               className="gif-embed"
               allowFullScreen
               title={item.name}
