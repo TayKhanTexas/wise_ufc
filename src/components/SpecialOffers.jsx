@@ -2,10 +2,10 @@ import React from 'react';
 import './SpecialOffers.css';
 
 const specialOffers = [
-  { name: '30 Sec birthday video message', price: '$1000.00' },
+  { name: '30 Sec birthday video message', price: '$1000.00', input: true},
   { name: '30 Sec video message', price: '$1000.00', input: true },
-  { name: 'After Win Callout (via Wise)', price: '$20000.00' },
-  { name: '15-minute call (via Wise)', price: '$10000.00' },
+  { name: 'After Win Callout (via Wise)', price: '$20000.00', input: true },
+  { name: '15-minute call (via Wise)', price: '$10000.00' , input: true},
 ];
 
 const SpecialOffers = () => {
