@@ -4,9 +4,6 @@ import costaLatte from '../assets/costa_latte.png';
 import fishandchips from '../assets/fishandchips.jpg';
 import bigmac from '../assets/bigmac.jpg';
 import headKick from '../assets/headKick.gif';
-import support499 from '../assets/499monthlysupport.jpg';
-import support999 from '../assets/999monthlysupport.jpg';
-import support2999 from '../assets/2999monthlysupport.jpg';
 
 const BuyItems = () => {
   const [selectedItems, setSelectedItems] = useState({});
@@ -20,9 +17,6 @@ const BuyItems = () => {
     { id: 6, name: 'Wetherspoon Glass of Trivento Red Wine', price: '$8', gifUrl: 'https://giphy.com/embed/ng6NcNAvohN6M' },
     { id: 7, name: 'Bedders Fish & Chips', price: '$10', imageUrl: fishandchips },
     { id: 8, name: 'McDonalds Big Mac and Fries', price: '$10', imageUrl: bigmac },
-    { id: 9, name: 'Bronze Monthly Support', price: '$4.99', imageUrl: support499 },
-    { id: 10, name: 'Silver Monthly Support', price: '$9.99', imageUrl: support999 },
-    { id: 11, name: 'Gold Monthly Support', price: '$29.99', imageUrl: support2999 },
   ];
 
   const handleSelectQuantity = (id, quantity) => {
